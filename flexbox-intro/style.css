@@ -10,33 +10,37 @@ body{
 .wrapper{
     height: 100%;
     max-width: 960px;
+    margin: 0 auto;
 }
 
 
 .flex-container{
     display: flex;
-  background-color: rgb(180, 159, 159);
+     background-color: rgb(180, 159, 159);
+    flex-wrap: wrap;
     
     
 }
 
 .box{
    
-    height: 150px; 
-    width: 100px;  
+   height: 100px;
+   min-width: 200px;
+   flex-grow: 1;
    
 }
 
 .one{
     background-color: red;
-    flex-grow:1;
 
+  
 
 }
 .two{
     background-color: blue;
-    flex-grow: 2;
+
 }
 .three{
     background-color: green;
+
 }
